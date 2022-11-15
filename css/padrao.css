@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: 14px sans-serif;
+}
+
+/*Padrão*/
+[class*="col-"] {
+    float: left;
+    box-sizing: border-box;
+}
+
+.imgResponsiva {
+    width: 100%;
+}
+
+/* Customizar Destinos */
+.destinos div {
+    padding: 5px;
+}
+
+.destinos figure {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.destinos * {
+    text-align: center;
+    margin-top: 10px;
+}
